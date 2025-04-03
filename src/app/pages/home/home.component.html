@@ -1,0 +1,72 @@
+<app-header></app-header>
+<div class="container">
+  <br />
+  <div>
+    <h2>¡Bienvenido a Decoencasa!</h2>
+    <p>
+      En DecoEnCasa, nos apasiona el arte de la decoración y el diseño de
+      interiores. Nuestro sitio está dedicado a ayudarte a convertir tu casa en
+      un hogar acogedor, estilizado y funcional. Aquí encontrarás una amplia
+      variedad de artículos, guías y consejos sobre todo lo relacionado con la
+      decoración de interiores, la elección de muebles, la jardinería, y mucho
+      más.
+    </p>
+    <p>
+      <b
+        >Explora nuestras secciones para encontrar inspiración y soluciones
+        prácticas que se adapten a tus gustos y necesidades. Desde ideas para
+        decorar tu sala de estar hasta tips para darle vida a tu jardín,
+        DecoEnCasa es el recurso definitivo para transformar cualquier espacio
+        en un lugar único y especial.</b
+      >
+    </p>
+  </div>
+  <br />
+  <div>
+    <h2>Descubre nuestro Blog</h2>
+    <p>
+      Nuestro blog es el corazón de DecoEnCasa, donde compartimos las últimas
+      tendencias en decoración, consejos de expertos y proyectos DIY (hazlo tú
+      mismo) para que puedas personalizar cada rincón de tu hogar.
+    </p>
+    <div>
+      <p><b>Temas que encontraras en nuestro blog:</b></p>
+      <ul>
+        <li>
+          <b>Tendencias de Decoración: </b>Mantente al día con las últimas
+          tendencias en colores, estilos y materiales.
+        </li>
+        <li>
+          <b>Consejos de Decoración: </b>Aprende cómo combinar muebles, elegir
+          paletas de colores y optimizar cada espacio de tu hogar.
+        </li>
+        <li>
+          <b>Inpiración para jardinería: </b>Descubre cómo convertir tu jardín o
+          balcón en un oasis verde.
+        </li>
+      </ul>
+    </div>
+  </div>
+  <h3>Echa un vistazo a nuestros ultimos Artículos!</h3>
+  <br />
+  <div class="row">
+    @for (articulo of articulos; track $index) {
+    <div class="card container" style="width: 18rem">
+      <div class="card-body">
+        <h5 class="card-title">{{ articulo.titulo }}</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">
+          {{ articulo.fecha }} • {{ articulo.categoria }}
+        </h6>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div>
+    </div>
+    }
+  </div>
+  <br />
+</div>
+<app-footer></app-footer>

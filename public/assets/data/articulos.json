@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "titulo": "Cómo aprender Angular 19",
+    "cuerpo": "<p><strong>Angular 19</strong> es una herramienta poderosa para crear aplicaciones web. En este artículo, aprenderás los conceptos básicos para empezar.</p><ul><li>Instalación</li><li>Componentes</li><li>Servicios</li></ul>",
+    "fecha": "2025-03-17",
+    "categoria": "Angular"
+  },
+  {
+    "id": 2,
+    "titulo": "Usando Bootstrap Icons en tu proyecto",
+    "cuerpo": "<p>Bootstrap Icons ofrece una gran variedad de íconos listos para usar. Puedes integrarlos con clases como <code>bi bi-alarm</code>.</p>",
+    "fecha": "2025-03-15",
+    "categoria": "Bootstrap"
+  },
+  {
+    "id": 3,
+    "titulo": "Tercer Articulo Prueba",
+    "cuerpo": "<p>Bootstrap Icons ofrece una gran variedad de íconos listos para usar. Puedes integrarlos con clases como <code>bi bi-alarm</code>.</p>",
+    "fecha": "2025-04-03",
+    "categoria": "Bootstrap"
+  },
+  {
+    "id": 4,
+    "titulo": "Cuarto Articulo Prueba",
+    "cuerpo": "<p>Bootstrap Icons ofrece una gran variedad de íconos listos para usar. Puedes integrarlos con clases como <code>bi bi-alarm</code>.</p>",
+    "fecha": "2025-01-03",
+    "categoria": "Bootstrap"
+  },
+  {
+    "id": 5,
+    "titulo": "Quinto Articulo Prueba",
+    "cuerpo": "<p>Bootstrap Icons ofrece una gran variedad de íconos listos para usar. Puedes integrarlos con clases como <code>bi bi-alarm</code>.</p>",
+    "fecha": "2025-04-02",
+    "categoria": "Bootstrap"
+  }
+]

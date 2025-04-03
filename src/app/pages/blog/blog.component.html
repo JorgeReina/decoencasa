@@ -1,0 +1,19 @@
+<app-header></app-header>
+<br />
+<div class="container center">
+  <h2>Bienvenido a nuestro Blog!</h2>
+  <br />
+  @for (articulo of articulos; track $index) {
+  <div class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">{{ articulo.titulo }}</h5>
+      <div class="card-subtitle text-muted mb-2">
+        {{ articulo.fecha }} • {{ articulo.categoria }}
+      </div>
+      <div class="card-text" [innerHTML]="articulo.cuerpo"></div>
+    </div>
+  </div>
+  }
+</div>
+<br />
+<app-footer></app-footer>
